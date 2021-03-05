@@ -2,13 +2,12 @@
 
 ## Краткое описание
 
-04.03.2021 - 04.03.2021 было проведено функциональное тестирование приложения Credit Card Number Validator.
+05.03.2021 - 05.03.2021 было проведено функциональное тестирование приложения Credit Card Number Validator.
 
 На тестирование затрачено: 0.5 часа
 
 В результате тестирования выявлены следующие дефекты:
-* []()
-* [](https://github.com/DoroshenkoDenis/HomeWork1/issues/2)
+* [Не проходят проверку карты с числом знаков отличным от 16](https://github.com/DoroshenkoDenis/HomeWork2/issues/1)
 
 ## Описание процесса тестирования
 
@@ -16,17 +15,18 @@
 * [Домашнее задание 1 к лекции Введение в Java: JDK, JRE, JVM, IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
 * [Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
 * [Код программы](src/Main.java)
-* [TestPlan](src/TestPlan.md)
+
 
 
 В качестве тестовых данных использовались данные [Credit Card Number Generator & Validator](https://www.freeformatter.com/credit-card-number-generator-validator.html):
 
-**Карты с ожидаемым результатом:**
+**Номера карт с ожидаемым результатом:**
 
 **VISA:**  
 4916004933579713  :OK  
 4916192193882065  :OK  
-4485823257112943402  :OK
+4485823257112943402  :OK  
+4716231103944216928  :OK         
 
 **MasterCard:**  
 2221000499941960  :OK  
@@ -41,12 +41,14 @@
 **Discover:**  
 6011697904507834  :OK  
 6011761157888257  :OK  
-6011264866043149414  :OK
+6011264866043149414  :OK  
+6011646643185379243  :OK   
 
 **JCB:**  
 3530888997330759  :OK  
 3533437534424043  :OK  
-3533350390669341875  :OK
+3533350390669341875  :OK  
+3531964384810556657  :OK
 
 **Diners Club - North America:**  
 5575168986667383  :OK  
